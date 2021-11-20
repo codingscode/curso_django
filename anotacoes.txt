@@ -17,7 +17,9 @@ https://onepagelove.com/fusion-lite
 https://onepagelove.com/essence-lite
 
 
-
+no terminal:
+   pip install django
+   pip freeze > requirements.txt   // cria um arquivo
 
 
 
