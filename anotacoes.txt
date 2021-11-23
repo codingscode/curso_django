@@ -23,7 +23,8 @@ no terminal:
 
 
 
-
+no terminal da pasta do projeto:
+   django-admin startproject django1 .   // cria pasta e arquivos
 
 
 
