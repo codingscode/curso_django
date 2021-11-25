@@ -25,9 +25,10 @@ no terminal:
 
 no terminal da pasta do projeto:
    django-admin startproject django1 .   // cria pasta e arquivos
+   django-admin startapp nucleo   // cria diretorio de nome nucleo
 
 
-
+acrescentar o nome 'nucleo'
 
 
 
