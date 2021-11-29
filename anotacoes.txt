@@ -25,10 +25,31 @@ no terminal:
 
 no terminal da pasta do projeto:
    django-admin startproject django1 .   // cria pasta e arquivos
-   django-admin startapp nucleo   // cria diretorio de nome nucleo
+   django-admin startapp nucleo   // cria diretorio de nome nucleo aplicação 
 
 
 acrescentar o nome 'nucleo'
+
+// criando ambiente virtual
+python3.9 -m venv tutorial-env
+source tutorial-env/bin/activate
+
+
+terminal da pasta proj1:
+   python3.9 manage.py runserver
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
