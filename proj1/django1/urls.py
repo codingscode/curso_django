@@ -16,6 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from nucleo.views import index, contato
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index),
+    path('contato', contato),
 ]
+
+
+

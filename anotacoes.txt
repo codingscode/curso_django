@@ -40,8 +40,8 @@ terminal da pasta proj1:
 
 
    ver http://127.0.0.1:8000/
-
-
+   ver http://127.0.0.1:8000/contato
+   ver http://127.0.0.1:8000/produto
 
 
 
