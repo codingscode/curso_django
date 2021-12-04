@@ -49,6 +49,13 @@ os templates ainda nao tem
 os templates tem agora e aparecem quando se é executado
 
 
+aparece mensagem da variavel
+
+
+
+
+
+
 
 
 
