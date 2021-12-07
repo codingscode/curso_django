@@ -52,6 +52,14 @@ os templates tem agora e aparecem quando se é executado
 aparece mensagem da variavel
 
 
+terminal da pasta proj1:
+    python3.9 manage.py makemigrations
+    """
+    Migrations for 'nucleo':
+       nucleo/migrations/0001_initial.py
+          - Create model Produto
+
+    """
 
 
 
