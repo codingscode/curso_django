@@ -109,4 +109,8 @@ terminal da pasta proj1:
 
 
 
+o arquivo db.sqlite3 sofre modificações
+
+
+
 
