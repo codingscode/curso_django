@@ -117,7 +117,7 @@ mudando o nome admin para painel
 ver http://127.0.0.1:8000/admin  -> nao funciona mais
 ver http://127.0.0.1:8000/painel/
 
-
+desfazendo
 
 
 
