@@ -111,6 +111,37 @@ terminal da pasta proj1:
 
 o arquivo db.sqlite3 sofre modificações
 //ver http://127.0.0.1:8000/admin/nucleo/produto/
+//ver http://127.0.0.1:8000/admin/nucleo/cliente/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

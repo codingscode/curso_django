@@ -15,7 +15,7 @@ class Cliente(models.Model):
     email = models.EmailField('E-mail', max_length=100)
 
     def __str__(self):
-        return f'{self.nome} {self.sobrenome}'
+        return self.nome
     
 
 
