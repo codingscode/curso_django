@@ -100,8 +100,8 @@ terminal da pasta proj1:
      python3.9 manage.py runserver
      // ver http://127.0.0.1:8000/admin   -> é adicionado mais coisas
 
-
-
+     adicionar produtos pelo proprio browser
+    
 
 
 
