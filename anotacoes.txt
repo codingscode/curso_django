@@ -87,9 +87,15 @@ terminal da pasta proj1:
   Applying sessions.0001_initial... OK
 
     """
-
-
-
+     novamente
+     python3.9 manage.py makemigrations
+     python3.9 manage.py migrate
+     python3.9 manage.py runserver
+     
+     python3.9 manage.py runserver
+     // ver http://127.0.0.1:8000/admin
+     
+     python3.9 manage.py createsuperuser
 
 
 

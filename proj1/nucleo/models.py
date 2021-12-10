@@ -12,6 +12,3 @@ class Cliente(models.Model):
     email = models.EmailField('E-mail', max_length=100)
 
 
-
-
-
