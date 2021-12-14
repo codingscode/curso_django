@@ -2,6 +2,8 @@ from django.shortcuts import render
 
 
 def index(request):
+    print(request)
+
     context = {
         'curso': 'Prog Django', 'outro': 'javascript'
     }
@@ -10,5 +12,12 @@ def index(request):
 
 def contato(request):
     return render(request, 'contato.html')
+
+
+
+
+
+
+
 
 
