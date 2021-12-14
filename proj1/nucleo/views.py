@@ -3,6 +3,8 @@ from django.shortcuts import render
 
 def index(request):
     print(dir(request))
+    print(f'metodo: {request.method}')
+    print(f'Headers: {request.headers}')
 
     context = {
         'curso': 'Prog Django', 'outro': 'javascript'

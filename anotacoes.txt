@@ -222,8 +222,13 @@ terminal pasta proj1:
     
 
 
+recarregar "http://127.0.0.1:8000/", logo imprime:  metodo: GET
 
+"""
+Headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Sec-Ch-Ua': '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"', 'Sec-Ch-Ua-Mobile': '?0', 'Sec-Ch-Ua-Platform': '"Linux"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7', 'Cookie': 'csrftoken=iD32wfV5VYTbkWDKxcORi1jh7MoVD0L70OHhW5oxzkHqw14UlJrELptEY51r9Mlk; sessionid=bnv0qvth8sezpgt5mc9562ar84nvthuo'}
+[14/Dec/2021 15:03:47] "GET / HTTP/1.1" 200 204
 
+"""
 
 
 
