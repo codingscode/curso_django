@@ -5,6 +5,10 @@ def index(request):
     print(dir(request))
     print(f'metodo: {request.method}')
     print(f'Headers: {request.headers}')
+    print(f'headers user-agent: {request.headers["User-Agent"]}')
+    print(f'User: {request.user}')
+
+
 
     context = {
         'curso': 'Prog Django', 'outro': 'javascript'
@@ -14,8 +18,6 @@ def index(request):
 
 def contato(request):
     return render(request, 'contato.html')
-
-
 
 
 

@@ -230,6 +230,10 @@ Headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Host': '127.0.0.1
 
 """
 
+experimentar sem ou estando logado para ver o print de user -> anonimo ou com nome
+
+
+
 
 
 
