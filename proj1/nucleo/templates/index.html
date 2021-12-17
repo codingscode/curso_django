@@ -10,6 +10,7 @@
    <h2>{{ outro }}</h2>
    <!-- <span>{{ logado }}</span> -->
    
+
    <table>
       <thead>
          <tr>
@@ -19,18 +20,17 @@
          </tr>
       </thead>
       <tbody>
-       {% for cada in produtos %}
+       {% for produto in produtos %}
           <tr>
-             <td><a href="{% url 'produto' produto.id %}" >{{ cada.nome }}</a></td>
-             <td>{{ cada.preco }}</td>
+             <td><a href="{% url 'produto' produto.id %}" >{{ produto.nome }}</a></td>
+             <td>{{ produto.preco }}</td>
              
           </tr>
 
        {% endfor %}   
       </tbody>
    </table>
-   
-   
+
 
 
 </body>

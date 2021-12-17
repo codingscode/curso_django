@@ -263,6 +263,9 @@ python3.9 manage.py runserver
 
 dá erro
 
+ver http://127.0.0.1:8000/produto/1
+   imprime: PK: 1
+
 
 
 

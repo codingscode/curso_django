@@ -37,3 +37,12 @@ def contato(request):
     return render(request, 'contato.html')
 
 
+def produto(request, pk):
+    print(f'PK: {pk}')
+    return render(request, 'produto.html')
+
+
+
+
+
+
