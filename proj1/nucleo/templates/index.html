@@ -15,15 +15,15 @@
          <tr>
             <th>Produto</th>
             <th>Preço</th>
-            <th>Estoque</th>
+            
          </tr>
       </thead>
       <tbody>
        {% for cada in produtos %}
           <tr>
-             <td>{{ cada.nome }}</td>
+             <td><a href="{% url 'produto' produto.id %}" >{{ cada.nome }}</a></td>
              <td>{{ cada.preco }}</td>
-             <td>{{ cada.estoque }}</td>
+             
           </tr>
 
        {% endfor %}   
