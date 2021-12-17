@@ -9,9 +9,28 @@
    <h2>{{ curso }}</h2>
    <h2>{{ outro }}</h2>
    <!-- <span>{{ logado }}</span> -->
-   {% for cada in produtos %}
-      <p>{{ cada }}</p>
-   {% endfor %}
+   
+   <table>
+      <thead>
+         <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+         </tr>
+      </thead>
+      <tbody>
+       {% for cada in produtos %}
+          <tr>
+             <td>{{ cada.nome }}</td>
+             <td>{{ cada.preco }}</td>
+             <td>{{ cada.estoque }}</td>
+          </tr>
+
+       {% endfor %}   
+      </tbody>
+   </table>
+   
+   
 
 
 </body>
