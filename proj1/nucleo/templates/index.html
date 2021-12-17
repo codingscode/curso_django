@@ -8,7 +8,12 @@
    <h1>Index</h1>
    <h2>{{ curso }}</h2>
    <h2>{{ outro }}</h2>
-   <span>{{ logado }}</span>
+   <!-- <span>{{ logado }}</span> -->
+   {% for cada in produtos %}
+      <p>{{ cada }}</p>
+   {% endfor %}
+
+
 </body>
 </html>
 
