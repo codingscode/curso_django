@@ -265,7 +265,8 @@ dá erro
 
 ver http://127.0.0.1:8000/produto/1
    imprime: PK: 1
-
+   clicando nos items tem-se o mesmo efeito
+   
 
 
 
