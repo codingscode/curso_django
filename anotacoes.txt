@@ -271,7 +271,7 @@ mesmo efeito mudando o nome
 + e correções, o segundo link volta pra raiz
 
 
-
+dir(Produto.objects.get(id=1))
 
 
 
