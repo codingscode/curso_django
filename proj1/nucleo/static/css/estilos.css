@@ -4,9 +4,15 @@ body {
    color: white;
 }
 
+a {
+   text-decoration: none;
+   color: orange;
+}
 
-
-
+img {
+   width: 200px;
+   height: 200px;
+}
 
 
 
