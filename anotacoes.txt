@@ -375,7 +375,8 @@ ver http://127.0.0.1:8000/produto/41
              Erro 500'
     
 
-
+logar e deslogar
+   quando desloga vai direto para pagina inicial
 
 
 
