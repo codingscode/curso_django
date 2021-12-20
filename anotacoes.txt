@@ -371,8 +371,9 @@ python3.9 manage.py runserver
 ver http://127.0.0.1:8000/produto/41
     aparece 'Server Error (500)'
     aparece 'A server error occurred.  Please contact the administrator.'
-
-
+    aparece 'Erro no processamento
+             Erro 500'
+    
 
 
 
