@@ -302,12 +302,64 @@ com DEGUB = False, o css, js, imagem não aplicados
 a pasta static não é usada
 
 
+python3.9 manage.py
+"""
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+Available subcommands:
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+"""
+python3.9 manage.py collectstatic
+"""
+131 static files copied to '/home/linux/Programacao/Python/curso_django_udemy/proj1/staticfiles'.
+"""
 
 
 
 
 
 
+
+
+
+é criada uma pasta staticfiles
 
 
 
