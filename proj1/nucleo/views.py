@@ -51,8 +51,8 @@ def produto(request, pk):
     return render(request, 'produto.html', context)
 
 
-
-
+def error404(request, exception):
+    return render(request, '404.html')
 
 
 
