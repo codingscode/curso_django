@@ -361,10 +361,11 @@ python3.9 manage.py collectstatic
 
 é criada uma pasta staticfiles
 
+item que não existe : http://127.0.0.1:8000/produto/41
 
 
-
-
+python3.9 manage.py runserver
+    testando http://127.0.0.1:8000/produto/41 ou mensagem agora
 
 
 
