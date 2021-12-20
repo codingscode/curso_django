@@ -298,8 +298,8 @@ estilo sendo aplicado
 
 aplicando js
 
-
-
+com DEGUB = False, o css, js, imagem não aplicados
+a pasta static não é usada
 
 
 
