@@ -273,12 +273,28 @@ mesmo efeito mudando o nome
 
 dir(Produto.objects.get(id=1))
 
+arquivos estaticos -> js, css e imagens
+
+python3.9 manage.py shell
+>>>
+from django1.settings import BASE_DIR
+BASE_DIR
+"""
+PosixPath('/home/linux/Programacao/Python/curso_django_udemy/proj1')
+"""
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT
+"""
+'/home/linux/Programacao/Python/curso_django_udemy/proj1/staticfiles'
+"""
+exit()
+
+>>>
 
 
-
-
-
-
+python3.9 manage.py runserver
+estilo sendo aplicado
 
 
 
