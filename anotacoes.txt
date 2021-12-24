@@ -399,20 +399,21 @@ terminal pasta proj1:
    pip freeze > requirements.txt
    heroku login
    heroku create django-hpr --buildpack heroku/python
-   heroku git:remote -a django-hpr
+   ///heroku git:remote -a django-hpr -> não usar
    git push heroku master
 
 
 
 loga no heroku
 
+aplicação em:
+   https://django-hpr.herokuapp.com/
+   ver https://git.heroku.com/django-hpr.git -> method not allowed
 
 
 
-
-
-
-
+publicado com sucesso
+experimentar adicionar clientes
 
 
 
