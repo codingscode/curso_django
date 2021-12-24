@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-346i915jysm)sd6jw%5gxnw*s7+%2*w&%t*civdaq9fdgv$35b
 # DEBUG com valor True = modo desenvolvimento, com valor False = modo produção
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django-hpr.herokuapp.com'] # só funciona sem o https://
 
 
 # Application definition

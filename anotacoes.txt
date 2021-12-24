@@ -416,8 +416,10 @@ publicado com sucesso
 experimentar adicionar clientes
 
 
-
-
+atualizando
+git add .
+git commit -m "mensagem"
+git push heroku master
 
 
 
