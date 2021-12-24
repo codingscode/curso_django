@@ -382,6 +382,62 @@ logar e deslogar
 ampliando css
 
 
+terminal na pasta proj1:
+   pip install whitenoise gunicorn
+
+
+whitenoise -> mostra arquivos estaticos em produção
+
+
+www.heroku.com
+
+https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+
+sudo snap install heroku --classic
+
+terminal pasta proj1:
+   pip freeze > requirements.txt
+   heroku login
+
+
+loga no heroku
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
