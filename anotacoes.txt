@@ -398,6 +398,10 @@ sudo snap install heroku --classic
 terminal pasta proj1:
    pip freeze > requirements.txt
    heroku login
+   heroku create django-hpr --buildpack heroku/python
+   heroku git:remote -a django-hpr
+   git push heroku master
+
 
 
 loga no heroku
