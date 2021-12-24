@@ -421,7 +421,7 @@ git add .
 git commit -m "mensagem"
 git push heroku master
 
-
+codigo util -> heroku logs --tail
 
 
 

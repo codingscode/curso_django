@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-346i915jysm)sd6jw%5gxnw*s7+%2*w&%t*civdaq9fdgv$35b
 DEBUG = False
 
 ALLOWED_HOSTS = ['django-hpr.herokuapp.com'] # só funciona sem o https://
-
+                                            # 'outro.herokuapp.com' comitado pelo git heroku daria erro -> bad request (400)
 
 # Application definition
 
