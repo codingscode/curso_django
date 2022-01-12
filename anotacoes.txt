@@ -424,8 +424,13 @@ git push heroku master
 codigo util -> heroku logs --tail
 
 
+-------------------------------
 
+novo projeto
 
+no terminal da pasta:
+   pip install django whitenoise gunicorn django-bootstrap5 PyMySQL django-stdimage
+   pip freeze > requirements.txt  // cria um texto com os nomes dos instalados
 
 
 
