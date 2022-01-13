@@ -436,14 +436,15 @@ no terminal da pasta:
 
 
 
+configuração para o mysql
+
+
+https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html
+   https://dev.mysql.com/downloads/workbench/
 
 
 
-
-
-
-
-
+CREATE DATABASE django2;
 
 
 
