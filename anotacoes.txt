@@ -447,11 +447,28 @@ https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html
 CREATE DATABASE django2;
 
 
+definindo configurando rotas
 
+"""
+se você estiver no ubuntu
+sudo apt-get install libmysqlclient-dev python3-dev
 
+se estiver no mac
+brew install mysql-connector-c
 
+se estiver no windows, e tem o servidor Mysql instalado, as bibliotecas já devem estar instaladas
 
+"""
 
+pip install django whitenoise gunicorn django-bootstrap4 PyMySQL django-stdimage
+
+no terminal:
+sudo -s
+sudo apt-get install python-dev
+pip install MySQL
+sudo apt-get install -y python3-mysqldb
+pip freeze > requirements.txt
+python3.9 manage.py migrate
 
 
 
